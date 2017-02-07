@@ -18,8 +18,8 @@ int main() {
 	int mpos ;		// Nombre de chiffres mal potisionnés
 
 	/*Initialisation*/
-	srand (time(NULL)) ;
-	tirage (tir) ;		//Passage par adresse car nom tableau = adresse
+	srand(time(NULL)) ;
+	tirage(tir) ;		//Passage par adresse car nom tableau = adresse
 
 	/*Jeu*/
 	do {
@@ -29,7 +29,7 @@ int main() {
 
 }
 
-void tirage (int t[]) {
+void tirage(int t[]) {
 	int i ;
 	for (i=0 ; i<NPOS ; i++)
 		t[i] = 1+rand()/(RAND_MAX +1)*NCHIF =1;
