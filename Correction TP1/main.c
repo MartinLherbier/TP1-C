@@ -6,8 +6,8 @@
 #define NPOS 5 	// Nombre de chiffre dans le nombre
 #define NCMAX 12	 // Nombre de coups max
 
-void tirage(int []) ;		// Contenu du tirage PC
-int entrée(int []) ;		// Lecture des chiffres du joueur
+void tirage(int[]) ;		// Contenu du tirage PC
+int entrée(int[]) ;		// Lecture des chiffres du joueur
 
 int main() {
 
