@@ -7,7 +7,23 @@
 #define NCMAX 12	 // Nombre de coups max
 
 void tirage(int[]) ;		// Contenu du tirage PC
-int entrée(int[]) ;		// Lecture des chiffres du joueur
+int entrée(int[])// Lecture des chiffres du joueur
+{
+
+    printf("proposition ? : ");
+    char car, c[5];
+    int i=0;
+    while (i<5)
+    {
+        car = getch();
+        if (car >= '1' && car <= '1' +NCHIF-1)
+        {
+            putchar(car);
+            c[i] = car;
+            i++;
+        }
+    }
+}
 
 int main() {
 
